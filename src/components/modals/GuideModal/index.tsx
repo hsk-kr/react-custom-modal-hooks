@@ -18,7 +18,7 @@ const style = {
   p: 4,
 };
 
-const Alert = ({ visible = false, onClose }: IModal) => {
+const GuideModal = ({ visible = false, onClose }: IModal) => {
   return (
     <Modal open={visible} onClose={onClose}>
       <Box sx={style}>
@@ -34,4 +34,4 @@ const Alert = ({ visible = false, onClose }: IModal) => {
   );
 };
 
-export default Alert;
+export default GuideModal;
