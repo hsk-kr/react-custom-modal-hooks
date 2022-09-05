@@ -3,7 +3,7 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 
-import { useModal } from '../hooks/useModal';
+import { useModal } from '../../hooks/useModal';
 
 function Examples() {
   const {

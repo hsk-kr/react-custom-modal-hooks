@@ -1,13 +1,15 @@
 import React, { createContext, useCallback, useContext, useState } from 'react';
 
-import { OpenModal } from '../../types/modal';
-import Alert, { AlertProps } from '../modals/Alert';
-import Confirm, { ConfirmProps } from '../modals/Confirm';
-import GuideModal from '../modals/GuideModal';
+import { OpenModal } from '../types/modal';
+import Alert, { AlertProps } from '../components/modals/Alert';
+import Confirm, { ConfirmProps } from '../components/modals/Confirm';
+import GuideModal from '../components/modals/GuideModal';
 import PostUploadModal, {
   PostUploadModalProps,
-} from '../modals/PostUploadModal';
-import APICallModal, { APICallModalProps } from '../modals/APICallModal';
+} from '../components/modals/PostUploadModal';
+import APICallModal, {
+  APICallModalProps,
+} from '../components/modals/APICallModal';
 
 interface IModalContext {
   openAlert: OpenModal<AlertProps>;

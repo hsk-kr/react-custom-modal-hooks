@@ -1,5 +1,5 @@
 import Examples from './components/Examples';
-import { ModalContextProvider } from './components/hooks/useModal';
+import { ModalContextProvider } from './hooks/useModal';
 
 function App() {
   return (

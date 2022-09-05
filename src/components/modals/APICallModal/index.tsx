@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 
 import { IModal } from '../../../types/modal';
 import { useEffect, useState } from 'react';
-import { useModal } from '../../hooks/useModal';
+import { useModal } from '../../../hooks/useModal';
 
 export interface APICallModalProps extends IModal {
   postId: number;
